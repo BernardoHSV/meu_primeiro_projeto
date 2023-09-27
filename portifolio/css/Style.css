@@ -1,0 +1,53 @@
+
+html {
+    min-height: 100%;
+    background-image: url(sol.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+body {
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  h1 {
+    background-color: rgb(255, 133, 133);
+    font-size: 36px;
+    text-shadow:2px 2px rgb(255, 51, 0);
+    color: rgb(0, 0, 0);
+    
+  }
+  p {
+    font-size: 18px;
+    color:  rgb(0, 0, 0);
+    text-shadow: 1px 1px rgb(255, 72, 0);
+  }
+  .apresentacao_links {
+    display: flex;
+    justify-content: space-between;
+  }
+  .apresentacao_links_link{
+    background-color: rgb(109, 42, 42);
+    width: 280px;
+    text-align: center;
+    border-radius: 24px;
+    font-size: 20px;
+    font-weight: 450;
+    padding: 15.5px 0;
+    text-decoration: none;
+    color: rgb(255, 248, 248);
+    font-family: 'Montserrat', 'sans-serif';
+  }
+  img {
+    height: 300px; width: 400px;
+    box-shadow: 4px 4px lemonchiffon;
+    display: block;
+    margin: 0px auto;
+    
+  }
+  li{
+    background-color: rgb(255, 255, 255);
+  }
